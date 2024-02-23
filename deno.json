@@ -1,5 +1,8 @@
 {
   "name": "@divy/test",
   "version": "0.0.3",
-  "exports": "./mod.ts"
+  "exports": "./mod.ts",
+  "publish": {
+    "exclude": ["./deno.zip", "./deno"]
+  }
 }
