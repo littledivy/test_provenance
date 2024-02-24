@@ -19,4 +19,6 @@ jobs:
         run: unzip ./deno.zip
 
       - name: Publish package
+        env:
+          JSR_URL: https://deno-registry-staging.net
         run: ./deno publish --provenance
