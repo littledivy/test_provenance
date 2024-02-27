@@ -1,6 +1,6 @@
 {
   "name": "@divy/test",
-  "version": "0.0.18",
+  "version": "0.0.19",
   "exports": "./mod.ts",
   "publish": {
     "exclude": ["./deno.zip", "./deno"]
